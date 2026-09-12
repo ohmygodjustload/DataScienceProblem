@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors (not .cursor/ — project rules live there and are tracked)
+.vscode/
+.idea/
+
+# Data
+# The downloaded MISO daily/monthly files are large and fully reproducible
+# via scripts/download_lmp.py, so we don't commit them. Two data files ARE
+# tracked in the repo (intentionally not ignored, listed here for reference):
+#   - data/raw/flambeau_gen.csv       (provided source data)
+#   - data/processed/lmp_hourly.csv   (built by the aggregation step)
+data/raw/lmp/
