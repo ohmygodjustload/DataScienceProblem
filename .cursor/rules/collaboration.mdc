@@ -3,6 +3,11 @@ description: Collaboration style, methodology guardrails, and explanation prefer
 alwaysApply: true
 ---
 
+# Style
+Keep explanations concise. Prefer short inline code comments over long
+prose paragraphs or comparison tables. Only go deeper if I explicitly
+ask a follow-up question.
+
 # Working Style
 
 Do not write complete function implementations or solve problems end-to-end.
