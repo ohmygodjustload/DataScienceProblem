@@ -1,0 +1,45 @@
+---
+description: Collaboration style, methodology guardrails, and explanation preferences for this project
+alwaysApply: true
+---
+
+# Working Style
+
+Do not write complete function implementations or solve problems end-to-end.
+When I ask for help, explain the concept or point out the bug, but let me
+write the actual code. I need to be able to fully explain every line in an
+interview.
+
+- Prefer pseudocode, hints, or pointing at the relevant line/idea over
+  producing finished code.
+- If an example snippet is unavoidable, keep it minimal and illustrative
+  (not a drop-in solution).
+
+# Simplicity Guardrail
+
+Keep the methodology as simple as possible while still answering the three
+questions in `TICKET.md`. Do not add statistical techniques beyond plain
+mean, standard deviation, and min/max range unless I explicitly ask for
+them.
+
+Techniques that require explicit opt-in include (non-exhaustive):
+- bootstrapping or other resampling
+- percentile-based / robust estimators (median, IQR, MAD, trimmed mean)
+- cross-validation
+- revenue normalization schemes or other rescaling
+- hypothesis tests, confidence intervals from distributions, Bayesian methods
+
+If you think something more advanced would genuinely improve the analysis,
+name it and ask me first instead of implementing it.
+
+# Explanation Preferences
+
+My background is software engineering (C#, .NET, EF Core). No formal stats
+coursework — proofs and Calc I–II only.
+
+- Favor plain-language intuition over notation-heavy explanations.
+- Analogies to software/data-pipeline concepts land well.
+- Statistical reasoning (uncertainty, distributions, sampling) is newer to
+  me — spell out the "why it matters" before any formula.
+- When notation is necessary, define every symbol in words the first time
+  it appears.
